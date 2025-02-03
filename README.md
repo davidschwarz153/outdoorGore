@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# OutdoorGore
 
-## Getting Started
+Willkommen zum OutdoorGore-Projekt! Dieses Projekt wurde mit [Next.js](https://nextjs.org/) erstellt und nutzt [Tailwind CSS](https://tailwindcss.com/) für das Styling.
 
-First, run the development server:
+## Projektübersicht
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+OutdoorGore ist eine Webanwendung, die entwickelt wurde, um [hier eine kurze Beschreibung des Zwecks oder der Funktionalität der Anwendung einfügen].
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Voraussetzungen
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Stellen Sie sicher, dass die folgenden Softwarekomponenten auf Ihrem System installiert sind:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Node.js](https://nodejs.org/) (empfohlen: Version 14 oder höher)
+- [npm](https://www.npmjs.com/) (wird normalerweise mit Node.js installiert)
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+Führen Sie die folgenden Schritte aus, um das Projekt lokal zu installieren und zu starten:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Repository klonen**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/davidschwarz153/outdoorGore.git
+   cd outdoorGore
+   ```
 
-## Deploy on Vercel
+2. **Abhängigkeiten installieren**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Entwicklungsserver starten**:
+
+   ```bash
+   npm run dev
+   ```
+
+   Der Entwicklungsserver läuft standardmäßig unter [http://localhost:3000](http://localhost:3000). Sie können die Anwendung in Ihrem Browser öffnen, um das Ergebnis zu sehen.
+
+## Projektstruktur
+
+Ein kurzer Überblick über die wichtigsten Verzeichnisse und Dateien:
+
+- `app/`: Enthält die Hauptanwendungskomponenten.
+- `components/`: Beinhaltet wiederverwendbare UI-Komponenten.
+- `public/`: Statische Dateien wie Bilder oder Icons.
+- `styles/`: Enthält globale CSS-Styles.
